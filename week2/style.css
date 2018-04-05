@@ -110,14 +110,13 @@ li:hover p {color:rgb(25, 31, 25);}
 @media screen and (max-width:415px){
   h1 {font-size:12vw;margin-top:5.5vw;}
   h2 {font-size:8vw; margin:4vw;}
-  h3 {font-size:4.55vw;}
+  h3 {font-size:4.55vw; margin:5vw;}
   P {font-size:3.3vw;}
   li {
     border: 2.5vw solid rgb(242, 0, 117);
     border-radius:10vw;
   }
   #grid-floats li {width:47.3%; height:130vw;}
-  #grid-floats li h3 {margin:5vw;}
   #grid-floats li:nth-child(1) {width:96.9%}
   #grid-floats li:nth-child(1) P {font-size:4vw;}
   #grid-floats li:nth-child(1) h3 {font-size:7vw;}
