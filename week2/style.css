@@ -23,12 +23,12 @@ h2 {
 h3 {
   text-align:center;
   color:rgb(50, 185, 45);
-  height:15%;
+  height:20%;
 }
 ul {list-style-type:none;}
 img {
-  width:75%;
-  margin-left:15%;
+  width:90%;
+  margin-left:5%;
 }
 p {text-align:center;}
 #grid-floats::after {
@@ -63,47 +63,47 @@ background-color:white;
 }
 
 @media screen and (min-width:1025px){
-  h1 {font-size:7vw; margin-top:3vw;}
-  h2 {font-size:5vw; margin:1.5vw;}
-  h3 {font-size:1.9vw;margin:1vw;}
+  h1 {font-size:7.5vw; margin-top:3vw;}
+  h2 {font-size:5.5vw; margin:1.5vw;}
+  h3 {font-size:2.2vw;margin:1vw;}
   P {font-size:1.3vw;}
   li {
     border: 1vw solid rgb(242, 0, 117);
     border-radius:4vw;
   }
-  li {width:22.6%; height:46vw;}
+  li {width:22.6%; height:52vw;}
   li:nth-child(1) {width:47.5%;}
-  li:nth-child(1) h3 {font-size:3vw;}
+  li:nth-child(1) h3 {font-size:3.5vw;}
   #grid-floats li:nth-child(n+12) {margin-left:7.5%;}
 }
 
 @media screen and (min-width:416px) and (max-width:1024px){
   h1 {font-size:8vw; margin-top:4vw;}
-  h2 {font-size:5vw; margin:1.5vw;}
-  h3 {font-size:2.5vw; margin:2vw;}
+  h2 {font-size:5.5vw; margin:1.5vw;}
+  h3 {font-size:3vw; margin:2vw;}
   P {font-size:1.7vw;}
   li {
     border: 1.4vw solid rgb(242, 0, 117);
     border-radius:6vw;
   }
-  li {width:30.9%; height:60vw;}
+  li {width:30.9%; height:67vw;}
   li:nth-child(-n+2) {width:47.5%}
-  li:nth-child(-n+2) h3 {font-size:3.5vw;}
+  li:nth-child(-n+2) h3 {font-size:4vw;}
 }
 
 @media screen and (max-width:415px){
   h1 {font-size:12vw;margin-top:5.5vw;}
-  h2 {font-size:8vw; margin:4vw;}
-  h3 {font-size:4.55vw;}
+  h2 {font-size:8.5vw; margin:4vw;}
+  h3 {font-size:5vw;}
   P {font-size:3.3vw;}
   li {
     border: 2.5vw solid rgb(242, 0, 117);
     border-radius:10vw;
   }
-  li {width:47.4%; height:125vw;}
+  li {width:47.4%; height:140vw;}
   li:nth-child(1) {width:97%}
   li:nth-child(1) P {font-size:4vw;}
   #grid-floats li:nth-child(14) {margin-left:26%;}
-  li:nth-child(1) h3 {font-size:7vw;}
+  li:nth-child(1) h3 {font-size:8vw;}
   li h3 {margin:5vw;}
 }
