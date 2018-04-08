@@ -72,10 +72,6 @@ background-color:white;
   li:nth-child(1) {width:calc(100% / 2 - 2.4vw);}
   li:nth-child(1) h3 {font-size:3.5vw;}
   #grid-floats li:nth-child(n+12) {margin-left:7.5%;}
-  li:nth-child(3) h3, li:nth-child(10) h3 {
-    box-sizing:border-box;
-    padding-top:15%;
-  }
 }
 
 @media screen and (min-width:416px) and (max-width:1024px){
@@ -88,10 +84,6 @@ background-color:white;
     width: calc(100% / 3 - 2.4vw); height:67vw;}
   li:nth-child(-n+2) {width:calc(100% / 2 - 2.4vw);}
   li:nth-child(-n+2) h3 {font-size:4vw;}
-  li:nth-child(3) h3, li:nth-child(10) h3 {
-    box-sizing:border-box;
-    padding-top:7%;
-  }
 }
 
 @media screen and (max-width:415px){
