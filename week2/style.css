@@ -13,6 +13,7 @@ h1 {
   text-align:center;
   color:rgb(147, 34, 141);
   animation: pulse 1.5s 1;
+  animation-delay: 1s;
   margin:0px;
 }
 h2 {
