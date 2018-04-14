@@ -1,0 +1,416 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+#nav-container {
+  background-color:#01689b;
+  padding: 0.9rem;
+}
+#div-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color:#01689b;
+}
+#div-nav::after {    
+  content: "";
+  display: block;
+  clear: both;
+}
+main {
+  width:calc(100vw - scroll);
+  overflow:hidden;
+}
+#main-image {
+  display:block;
+  position: relative; 
+  left:calc(-970px + 50vw);
+}
+main h6 {
+  position: absolute;
+  font-size:0.8rem;
+  font-weight: normal;
+  left: 20px;
+  z-index:2;
+  color:white;
+}
+.main-div {
+  color:#01689b;
+  font-size:1rem;
+  font-weight: bold;
+  line-height:1.9rem;
+  background-color:white;
+  display:block;
+  position:absolute;
+}
+#first-sec {
+  background-color:#f3f3f3;
+}
+#first-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom:45px;
+}
+#second-container {
+  border-bottom-width:1px;
+  border-bottom-color: #cbd2e3;
+  border-bottom-style:solid;
+}
+.second-sec-div h2 {
+  color:#01689b;
+  margin-top:10px;
+  font-weight:normal;
+}
+.second-sec-div p {
+  font-size:0.9rem;
+  line-height:20px;
+  margin-top:10px;
+}
+.second-sec-div img {width:100%;}
+#third-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.third-sec-div {
+  margin:14px;
+  padding:15px 2px;
+  border:3px solid #cbd2e3;
+  float: left;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#third-container h1 {
+  color:#01689b;
+  text-align:center;
+ font-weight:bold;
+}
+#third-container h2 {
+  color:black;
+  text-align:center;
+  font-weight:normal;
+}
+#third-container h3 {
+  color:#a90061;
+  text-align:center;
+  font-weight:bold;
+}
+#third-container h4 {
+  color:black;
+  text-align:center;
+  font-weight:normal;
+}
+#third-container::after {    
+  content: "";
+  display: block;
+  clear: both;
+}
+#fourth-sec {background-color:#01689b;}
+#fourth-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+}
+.fourth-sec-div {padding:15px;}
+.fourth-sec-div:first-child {
+  padding:15px;
+  font-style:italic;
+}
+#fourth-container h1 {
+  color:white;
+  font-size:1.5rem;
+  font-weight:normal;
+}
+#fourth-container h2 {
+  color:white;
+  font-weight:normal;
+}      
+#fourth-container ul {
+  list-style-type:none;
+  color:white;
+}
+#footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top:30px;
+  padding-bottom:30px;
+  display:flex;
+  justify-content: center;
+}
+#fifth-container {
+  max-width: 1200px;
+  margin: 0 auto;
+} 
+#fifth-container h1 { 
+  margin-left:15px;}
+#fifth-container h5 {
+  color:#01689b; 
+  margin:20px 35px;
+  font-size:1rem;
+}      
+.fifth-sec-div {padding:15px;}
+#fifth-container h2{
+  color:#01689b;
+  font-weight:normal;
+  font-size:1.6rem;
+  margin:7px 0px;
+  line-height:33px;
+}
+#fifth-container h3{
+  font-size:0.95rem;
+  margin:15px 0px;
+}
+#fifth-container p {
+  font-size:0.9rem;
+  margin:7px 0px;
+  line-height:23px;
+}      
+#footer-container h4 {
+  font-size:1rem;
+  font-weight: normal;
+  color:#007bc7;
+  border:1px solid #b2d7ee;
+  padding:10px;
+  margin:7px;
+}
+#footer-container h4:first-child {font-size:1rem;
+  font-weight: bold;
+  color:black;
+  border:0px solid #b2d7ee;
+}
+
+@media (max-width:767px) {
+  #rijksoverheid-logo {
+    position:absolute;
+    width:250px;
+    top:-20px;
+    margin-left:calc(50vw - 30px);
+  }
+  header {height:80px;}
+  #div-nav ul {
+    position: absolute;
+    z-index:3;
+    right :1vw;
+    top:127px;
+    display:none;
+  }
+  #div-icon:hover + ul {display:block;}
+  #div-nav ul:hover {display:block;}
+  #div-nav li {
+    text-align:left;
+    color:white;
+    border-top-style:solid;
+    border-top-color:white;
+    border-top-width:1px;
+    background-color:#01689b;
+    font-size:1rem;
+    padding:1rem 0.6rem 1rem 0.6rem;
+    list-style-type:none;
+    width:calc(98vw - 17px);
+  }
+  #div-nav #div-icon {position:absolute;
+    right:0px;z-index:2;
+    width:105px;
+    height:33px;
+    background-color:#01689b;
+  }
+  #div-icon div {
+    width:30px;
+    height:2px;
+    background-color:white;
+    margin:5px;
+    margin-left:60px;
+  }
+  #div-nav h2 {
+    font-size:1.3rem;
+    font-weight: normal;
+    color:white;
+    padding:0rem 0rem 0.6rem 0rem;
+  }
+  .search-box-wrapper {display: inline-flex; }
+  .search-box-input {
+    padding:0.9rem 0.5rem;
+    font-size:1rem;
+    width:calc(97vw - 62px);
+    border: white;
+  }
+  .search-box-botton {
+    background-color:black;
+    color:white;
+    width:45px;
+    font-size:1.2rem;
+    border: black;
+    cursor:pointer;
+  }
+  #main-image {height:310px;}
+  main h6 {top: 470px;}
+  .main-div {
+    padding:1.2rem 0.2rem 1.2rem 2rem;
+    width:calc(94vw - 17px);
+    position:absolute;
+    top:215px;
+    left:3vw;
+  }
+  #first-container {padding-top:35px;}
+  .first-sec-div {padding:15px;}
+  .first-sec-div h2 {
+    color:#01689b;
+    font-size:1.2rem;
+  }
+  .first-sec-div p {
+    line-height:22px;
+    font-size:0.93rem
+  }
+  #second-container {
+    padding-top:50px;
+    padding-bottom:40px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .second-sec-div {
+    width:calc(46% - 8.5px);
+    margin:2.5%;
+  }
+  #third-container {
+    padding-top:0px;
+    padding-bottom:40px;
+  }
+
+  .third-sec-div {
+    width:calc(50vw - 36.5px);
+    height:27vw;
+  }
+  #third-container h1 {font-size:4.5vw;}
+  #third-container h2 {font-size:4vw;}
+  #third-container h3 {font-size:4.4vw;}
+  #third-container h4 {font-size:4vw;}
+  #fourth-container {
+    padding-top:30px;
+    padding-bottom:20px;
+    flex-wrap: wrap;
+  }
+  .fourth-sec-div {
+    width:50%;
+    line-height:2rem;
+  }
+  .fourth-sec-div:first-child {width:100%;}
+  #fourth-container h2 {font-size:1.1rem;}
+  #fourth-container ul {font-size:0.85rem;}
+  #fifth-container {padding-top:15px;}
+  .fifth-sec-div {padding:15px;}
+  #footer-container {flex-wrap:wrap;}
+
+}
+
+@media (min-width:768px) {
+  #rijksoverheid-logo {
+    margin-left:calc(50vw - 35px) ;
+    padding-top:0px;
+  }
+  header {height:135px;}
+  #div-nav li {
+    text-align:left;
+    float:right;
+    color:white;
+    font-size:1.1rem;
+    padding:0.7rem 0rem 0.5rem 2.5rem;
+    list-style-type:none;
+  }
+  #div-nav h2 {
+    font-size:1.5rem;
+    font-weight: normal;
+    color:white;
+    padding:0.4rem 0rem 0.4rem 0.6rem;
+    float:left;
+    width:250px;
+  }
+  .search-box-wrapper {
+    position:absolute;
+    right:6vw;
+    top:calc(325px - 7vw);
+    z-index:2;
+    display: inline-flex;
+  }
+  .search-box-input {
+    padding:0.9rem 0.5rem;
+    font-size:1rem;
+    width:25vw;
+    border: white;
+  }
+  .search-box-botton {
+    background-color:black;
+    color:white;
+    width:45px;
+    font-size:1.2rem;
+    border: black;
+    cursor:pointer;
+  }
+  #main-image {height:330px;}
+  main h6 {top: 500px;}
+  .main-div {
+    padding:1.5rem 2.5rem;
+    width:390px;
+    top:230px;
+    left:4.5vw;
+  }
+  #first-container {
+    padding-top:45px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .first-sec-div {
+    width:25%;
+    padding:25px;
+  }
+  .first-sec-div h2 {color:#01689b;}
+  .first-sec-div p {
+    line-height:25px;
+    margin-top:10px;
+  }
+  #second-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top:65px;
+    padding-bottom:70px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+  .second-sec-div {
+    width:31%;
+    padding:px;
+  }
+  #third-container {
+    padding-top:5px;
+    padding-bottom:75px;
+  }
+  .third-sec-div {
+    width:350px;
+    height:210px;
+  }
+  #third-container h1 {font-size:2.5rem;}
+  #third-container h2 {font-size:2rem;}
+  #third-container h3 {font-size:2.2rem;}
+  #third-container h4 {font-size:1.7rem;}
+  #fourth-container {
+    padding-top:40px;
+    padding-bottom:30px;
+  }
+  .fourth-sec-div {
+    width:23%;
+    line-height:2.5vw;
+  }
+  .fourth-sec-div:first-child {width:54%;}
+  #fourth-container h2 {font-size:1.8vw;}
+  #fourth-container ul {font-size:1.25vw;}
+  #fifth-container {
+    padding-top:15px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  #fifth-container h1 {width:100%;}
+  #fifth-container h5 {width:100%;}
+  .fifth-sec-div {width:33%;}
+
+}
