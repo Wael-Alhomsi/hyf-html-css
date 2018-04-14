@@ -4,5 +4,5 @@
   <li><a target="_blank" href="https://wael-alhomsi.github.io/hyf-html-css/week0/">Assignment week0 (Application assignment)</a>   </li>
   <li><a target="_blank" href="https://wael-alhomsi.github.io/hyf-html-css/week1/">Assignment week1 (My web resume)</a>   </li>
   <li><a target="_blank" href="https://wael-alhomsi.github.io/hyf-html-css/week2/">Assignment week2 (Grids with floats and with flexbox)</a>   </li>
-  <li><a target="_blank" href="https://wael-alhomsi.github.io/hyf-html-css/week3/">Assignment week2 (Responsive site remake)</a>   </li>
+  <li><a target="_blank" href="https://wael-alhomsi.github.io/hyf-html-css/week3/">Assignment week3 (Responsive site remake)</a>   </li>
 </ul>
